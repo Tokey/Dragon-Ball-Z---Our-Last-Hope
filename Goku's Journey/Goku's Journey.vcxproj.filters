@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\iGraphics with mouse function\iMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\iGraphics with mouse function\girl.bmp" />
+    <Image Include="..\..\iGraphics with mouse function\smurf.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\iGraphics with mouse function\glaux.h" />
+    <ClInclude Include="..\..\iGraphics with mouse function\GLUT.H" />
+    <ClInclude Include="..\..\iGraphics with mouse function\iGraphics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\iGraphics with mouse function\Glaux.lib" />
+    <Library Include="..\..\iGraphics with mouse function\GLUT32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\iGraphics with mouse function\GLUT32.DLL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\iGraphics with mouse function\Instruction.txt" />
+  </ItemGroup>
+</Project>
